@@ -23,7 +23,10 @@
       --------------if not exist --> create
           $ ssh-keygen -t rsa 
 
-       now copy  id_rsa.pub file content and add in gitHub --> ssh keys ( under settings )      
+       now copy  id_rsa.pub file content and add in gitHub --> ssh keys ( under settings )  
+
+       
+           
  
 
 ==========================================================
