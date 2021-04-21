@@ -1,0 +1,39 @@
+
+1) initialize repo
+   $ git init
+
+   ( do chages -> adding files / editing files )
+
+2) add to staging
+  $ git add -A 
+
+3) commit the chages
+  $ git commit -a -m " message "
+  
+
+------------- do chages & repeat step 2 & 3 ---------
+
+==========================================================
+
+ Enabling SSH communication
+
+  1) first get the ssh.pub key
+      
+    ~/.ssh/id_rsa.pub
+      --------------if not exist --> create
+          $ ssh-keygen -t rsa 
+
+       now copy  id_rsa.pub file content and add in gitHub --> ssh keys ( under settings )      
+ 
+
+==========================================================
+
+
+
+4) to push to remote repo
+  $ git push -u origin master   // -u= upstream // default branch in remote
+                                // -u not required, 2nd onwards
+                                // git push origin master
+                                // git push origin
+
+
