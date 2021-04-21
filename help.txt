@@ -26,7 +26,7 @@
        now copy  id_rsa.pub file content and add in gitHub --> ssh keys ( under settings )  
 
        
-           
+           --. added local config file
  
 
 ==========================================================
